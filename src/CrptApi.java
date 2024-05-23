@@ -52,13 +52,13 @@ public class CrptApi {
     public String toString() {
       return "{" +
           "description=" + description +
-          ", doc_id='" + doc_id +
-          ", doc_status='" + doc_status +
+          ", doc_id='" + doc_id + '\'' +
+          ", doc_status='" + doc_status + '\'' +
           ", doc_type=" + doc_type +
           ", importRequest=" + importRequest +
-          ", owner_inn='" + owner_inn +
-          ", participant_inn='" + participant_inn +
-          ", producer_inn='" + producer_inn +
+          ", owner_inn='" + owner_inn + '\'' +
+          ", participant_inn='" + participant_inn + '\'' +
+          ", producer_inn='" + producer_inn + '\'' +
           ", production_date=" + production_date +
           ", products=" + products +
           '}';
@@ -92,15 +92,15 @@ public class CrptApi {
     @Override
     public String toString() {
       return "{" +
-          "certificate_document='" + certificate_document +
+          "certificate_document='" + certificate_document + '\'' +
           ", certificate_document_date=" + certificate_document_date +
-          ", certificate_document_number='" + certificate_document_number +
-          ", owner_inn='" + owner_inn +
-          ", producer_inn='" + producer_inn +
+          ", certificate_document_number='" + certificate_document_number + '\'' +
+          ", owner_inn='" + owner_inn + '\'' +
+          ", producer_inn='" + producer_inn + '\'' +
           ", production_date=" + production_date +
-          ", tnved_code='" + tnved_code +
-          ", uit_code='" + uit_code +
-          ", uitu_code='" + uitu_code +
+          ", tnved_code='" + tnved_code + '\'' +
+          ", uit_code='" + uit_code + '\'' +
+          ", uitu_code='" + uitu_code + '\'' +
           '}';
     }
   }
@@ -114,7 +114,7 @@ public class CrptApi {
     @Override
     public String toString() {
       return "{" +
-          "participantInn='" + participantInn +
+          "participantInn='" + participantInn + '\'' +
           '}';
     }
   }
